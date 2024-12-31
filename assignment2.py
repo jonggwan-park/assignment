@@ -38,7 +38,7 @@ plt.show()
 '''
 # correlate Each feature with spending Score
 correlation_matrix = df.corr()
-#print(correlation_matrix.head())
+print(correlation_matrix.head())
 
 #print("\ndf.describe:")
 #print(df.describe())
